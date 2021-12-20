@@ -1,6 +1,11 @@
+import { createGlobalStyle } from "styled-components";
 import Header from "./Header";
 
 export default function Page({ children }) {
+
+    const GlobalStyles = createGlobalStyle` 
+    
+    `;
 
     return (
         <div>
